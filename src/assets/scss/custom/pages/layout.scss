@@ -1,0 +1,21 @@
+
+
+.navbar-header {
+   display: flex;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   height: $header-height;
+   padding: 0 calc(#{$grid-gutter-width} / 2) 0 0;
+
+   .dropdown .show {
+       &.header-item {
+           background-color: $gray-100;
+       }
+   }
+
+   .navbar-brand-box{
+       display: none;
+   }
+}
