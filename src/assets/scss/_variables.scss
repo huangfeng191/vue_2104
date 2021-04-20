@@ -1,3 +1,63 @@
 $header-height: 70px;
 $header-bg: #ffffff;
 $header-item-color: #555b6d;
+
+
+$gray-100: #212529;
+$gray-200: #2b2e3b;
+$gray-300: #343747;
+$gray-400: #9295a4;
+$gray-500: #9699a8;
+$gray-600: #c3cbe4;
+$gray-700: #f6f6f6;
+$gray-800: #eff2f7;
+$gray-900: #f8f9fa;
+$black:    #000;
+
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:                12;
+$grid-gutter-width:           1.25rem;
+$grid-row-columns:            6;
+$gutters: $spacers;
+
+
+
+// Vertical Sidebar - Default Light
+$sidebar-bg: #ffffff;
+$sidebar-menu-item-color: #7b8190;
+$sidebar-menu-sub-item-color: #7b8190;
+$sidebar-menu-item-icon-color: #7b8190;
+$sidebar-menu-item-hover-color: #383c40;
+$sidebar-menu-item-active-color: #5b73e8;
+$sidebar-menu-item-active-bg-color: #f3f8fb;
+$sidebar-menu-item-active-bg-color-dark: #293552;
+$sidebar-width:  250px;
+$sidebar-collapsed-width:  70px;
+$sidebar-width-sm:  160px;
+
+
+
+$box-shadow:                  0 2px 4px rgba(15,34,58,.12);

@@ -19,3 +19,31 @@
        display: none;
    }
 }
+
+
+#page-topbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: $sidebar-width;
+    z-index: 1002;
+    background-color: $header-bg;
+    box-shadow: $box-shadow;
+
+}
+
+
+
+.main-content {
+    margin-left: $sidebar-width;
+    overflow: hidden;
+
+    .content {
+        padding: 0 15px 10px 15px;
+        margin-top: $header-height;
+    }
+}
+
+.page-content {
+    padding: calc( #{$header-height} + #{$grid-gutter-width}) calc(#{$grid-gutter-width} / 2) 0 calc(#{$grid-gutter-width} / 2);
+}
