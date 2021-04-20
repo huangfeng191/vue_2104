@@ -21,7 +21,7 @@ const routes = [{
     {
         path: "/test/extend",
         nme: "testExtend",
-        component: () => import('../views/test/extend.vue')
+        component: () => import('../views/test/extend/')
     }
 ]
 
