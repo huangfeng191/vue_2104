@@ -17,7 +17,10 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
+import store from "./state/store"
+
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount('#app')
