@@ -1,3 +1,4 @@
+import TestVueRouter from '../views/test/vuerouter/';
 export default[
    {
       path: "/test/extend",
@@ -10,8 +11,15 @@ export default[
    component: () => import('../views/test/vuex/')
 },
 {
+   path: "/test/vuerouter",
+   nme: "testvuerouter",
+   component: TestVueRouter,
+   
+},
+{
    path: "/test/lifecircle",
    nme: "testlifecircle",
+   
    component: () => import('../views/test/lifecircle/')
 }
   
