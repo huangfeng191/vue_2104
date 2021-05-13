@@ -12,6 +12,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import router from './router'
 
+
+import httpRequest from "./utils/httpRequest";
+
+Vue.prototype.$http = httpRequest // ajax请求方法
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin

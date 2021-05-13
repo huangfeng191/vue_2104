@@ -21,6 +21,11 @@ export default[
    nme: "testlifecircle",
    
    component: () => import('../views/test/lifecircle/')
+},{
+   path: "/test/axios",
+   nme: "testaxios",
+   
+   component: () => import('../views/test/axios/')
 }
   
 ]
